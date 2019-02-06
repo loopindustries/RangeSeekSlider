@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files          = 'Sources/*.swift'
   s.frameworks            = ['CoreGraphics', 'UIKit']
+  s.swift_version         = '4.0'
 end
